@@ -1,7 +1,7 @@
 import asyncio
 
 
-async def monitoring():
+async def monitoring() -> None:
     try:
         while True:
             print("Monitoring started...")
